@@ -1,0 +1,20 @@
+{
+  "stations": [
+    "ADL",
+    "BRI",
+    "MEL",
+    "SYD"
+  ],
+  "links": {
+    "ADL": [
+      "MEL"
+    ],
+    "MEL": [
+      "ADL",
+      "SYD"
+    ],
+    "SYD": [
+      "BRI"
+    ]
+  }
+}
